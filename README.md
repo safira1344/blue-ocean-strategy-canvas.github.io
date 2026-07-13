@@ -2,7 +2,7 @@
 
 > Visualização estratégica do projeto **SalasUFS Gestor**, desenvolvido no âmbito do PIBITI 2024/2025 (UFS), posicionando a solução frente aos trabalhos correlatos em automação de ambientes universitários.
 
-🔗 **[Acessar o Strategy Canvas ao vivo](https://SEU-USUARIO.github.io/NOME-DO-REPO/)**
+🔗 **[Acessar o Strategy Canvas ao vivo](https://safira1344.github.io/blueoceanstrategy.github.io/)**
 
 ---
 
