@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SalasUFS Gestor — Blue Ocean Strategy Canvas</title>
+<title>SmartSala Gestor — Blue Ocean Strategy Canvas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -77,7 +77,7 @@
   }
   h1 em{color:var(--accent);font-style:normal;}
   .lede{
-    max-width:640px;font-size:17px;color:var(--ink-dim);margin:0 0 40px;
+    max-width:640px;font-size:22px;color:var(--ink-dim);margin:0 0 40px;
   }
   .hero-meta{
     display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
@@ -85,15 +85,15 @@
     border:1px solid var(--grid-strong);max-width:900px;
   }
   .hero-meta div{background:var(--bg);padding:16px 20px;}
-  .hero-meta .k{font-family:var(--mono);font-size:11px;color:var(--ink-faint);
+  .hero-meta .k{font-family:var(--mono);font-size:20px;color:var(--ink-faint);
     text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px;}
   .hero-meta .v{font-size:14px;color:var(--ink);}
 
   section{padding:64px 0;border-top:1px solid var(--grid-strong);}
   .section-head{margin-bottom:36px;}
   .section-head .eyebrow{margin-bottom:14px;}
-  h2{font-family:var(--mono);font-size:26px;font-weight:700;margin:0 0 12px;}
-  .section-sub{color:var(--ink-dim);max-width:640px;font-size:15px;margin:0;}
+  h2{font-family:var(--mono);font-size:30px;font-weight:700;margin:0 0 12px;}
+  .section-sub{color:var(--ink-dim);max-width:640px;font-size:20px;margin:0;}
 
   /* CHART PANEL */
   .canvas-panel{
@@ -105,13 +105,13 @@
   .canvas-panel::before{
     content:'FIG. 01 — CURVA DE VALOR';
     position:absolute;top:-1px;left:-1px;
-    font-family:var(--mono);font-size:10px;letter-spacing:0.08em;
+    font-family:var(--mono);font-size:16px;letter-spacing:0.08em;
     color:var(--bg-deep);background:var(--accent);
     padding:5px 10px;
   }
   svg#canvasChart{width:100%;height:auto;display:block;overflow:visible;}
-  .axis-label{font-family:var(--mono);font-size:11px;fill:var(--ink-faint);}
-  .factor-label{font-family:var(--sans);font-size:12.5px;fill:var(--ink-dim);}
+  .axis-label{font-family:var(--mono);font-size:16px;fill:var(--ink-faint);}
+  .factor-label{font-family:var(--sans);font-size:16px;fill:var(--ink-dim);}
   .grid-line{stroke:var(--grid-strong);stroke-width:1;}
   .value-line{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
   .value-line.competitor{stroke-width:1.6;stroke-dasharray:4 4;}
@@ -122,7 +122,7 @@
     display:flex;flex-wrap:wrap;gap:22px;margin-top:22px;
     padding-top:20px;border-top:1px solid var(--grid);
   }
-  .legend-item{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--ink-dim);}
+  .legend-item{display:flex;align-items:center;gap:9px;font-size:16px;color:var(--ink-dim);}
   .legend-swatch{width:22px;height:3px;border-radius:2px;}
   .legend-swatch.dashed{background:none;border-top:2px dashed;height:0;}
 
@@ -138,17 +138,17 @@
   }
   .errc-card.in-view{opacity:1;transform:translateY(0);}
   .errc-tag{
-    font-family:var(--mono);font-size:11px;letter-spacing:0.1em;
+    font-family:var(--mono);font-size:16px;letter-spacing:0.1em;
     text-transform:uppercase;padding:4px 10px;display:inline-block;margin-bottom:14px;
   }
   .errc-card.eliminate .errc-tag{color:#FF9E7A;background:rgba(255,158,122,0.12);}
   .errc-card.reduce .errc-tag{color:#8FB8FF;background:rgba(143,184,255,0.12);}
   .errc-card.raise .errc-tag{color:#8FE0C4;background:rgba(143,224,196,0.12);}
   .errc-card.create .errc-tag{color:var(--accent);background:var(--accent-dim);}
-  .errc-card h3{font-family:var(--mono);font-size:17px;margin:0 0 14px;}
+  .errc-card h3{font-family:var(--mono);font-size:20px;margin:0 0 14px;}
   .errc-card ul{margin:0;padding:0;list-style:none;}
   .errc-card li{
-    font-size:14px;color:var(--ink-dim);padding:9px 0 9px 18px;
+    font-size:18px;color:var(--ink-dim);padding:9px 0 9px 18px;
     border-top:1px solid var(--grid);position:relative;
   }
   .errc-card li:first-child{border-top:none;}
@@ -179,7 +179,7 @@
 
 <header class="top">
   <div class="topbar">
-    <div class="brand"><span class="dot"></span>SALASUFS GESTOR</div>
+    <div class="brand"><span class="dot"></span>SmartSala GESTOR</div>
     <div class="code">PIE13723-2024 · UFS</div>
   </div>
 </header>
@@ -190,7 +190,7 @@
     <p class="eyebrow">Blue ocean strategy canvas</p>
     <h1>Um <em>oceano azul</em> na automação de ambientes universitários</h1>
     <p class="lede">
-      O SalasUFS Gestor não compete pelas mesmas variáveis das soluções pontuais de
+      O SmartSala Gestor não compete pelas mesmas variáveis das soluções pontuais de
       automação já existentes — ele cria uma nova curva de valor ao integrar
       múltiplos ambientes, campi e indicadores de energia em um único painel
       de gestão, acessível via web e mobile.
@@ -206,10 +206,10 @@
   <section id="chart-section">
     <div class="section-head">
       <p class="eyebrow">Curva de valor</p>
-      <h2>Onde o SalasUFS Gestor se posiciona</h2>
+      <h2>Onde o SmartSala Gestor se posiciona</h2>
       <p class="section-sub">
         Cada fator abaixo representa uma dimensão pela qual soluções de automação de
-        ambientes competem hoje. A curva do SalasUFS Gestor (em destaque) eleva
+        ambientes competem hoje. A curva do SmartSala Gestor (em destaque) eleva
         fatores negligenciados pelos concorrentes — integração multi-ambiente,
         indicadores de BI e escalabilidade institucional — enquanto elimina a
         dependência de intervenção manual.
@@ -217,8 +217,8 @@
     </div>
 
     <div class="canvas-panel">
-      <svg id="canvasChart" viewBox="0 0 1080 560" role="img" aria-label="Gráfico de curva de valor comparando SalasUFS Gestor com três trabalhos correlatos em sete fatores de competição">
-        <title>Strategy Canvas — SalasUFS Gestor</title>
+      <svg id="canvasChart" viewBox="0 0 1080 560" role="img" aria-label="Gráfico de curva de valor comparando SmartSala Gestor com três trabalhos correlatos em sete fatores de competição">
+        <title>Strategy Canvas — SmartSala Gestor</title>
       </svg>
 
       <div class="legend" id="legend"></div>
@@ -231,7 +231,7 @@
       <h2>Eliminar · Reduzir · Elevar · Criar</h2>
       <p class="section-sub">
         A estrutura das quatro ações traduz a curva de valor em decisões concretas
-        de projeto para o módulo Gestor do SalasUFS.
+        de projeto para o módulo Gestor do SmartSala.
       </p>
     </div>
 
@@ -292,7 +292,7 @@
 </div>
 
 <footer class="wrap">
-  <span>SalasUFS Gestor — Blue Ocean Strategy Canvas</span>
+  <span>SmartSala Gestor — Blue Ocean Strategy Canvas</span>
   <span>Gerado a partir do Plano de Trabalho PIE13723-2024</span>
 </footer>
 
@@ -309,7 +309,7 @@
   ];
 
   const series = [
-    { name:"SalasUFS Gestor", color:"var(--accent)", hero:true, values:[9,10,9,9,9,8,8] },
+    { name:"SmartSala Gestor", color:"var(--accent)", hero:true, values:[9,10,9,9,9,8,8] },
     { name:"Cunha (2018)", color:"#5B7A99", hero:false, values:[2,1,1,3,2,3,5] },
     { name:"Huang et al. (2019)", color:"#7FA8C9", hero:false, values:[8,2,3,4,2,4,4] },
     { name:"Ugale et al. (2019)", color:"#436A8C", hero:false, values:[6,2,2,2,3,3,6] }
